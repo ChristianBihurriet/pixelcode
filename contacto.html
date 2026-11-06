@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelCode | Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <p class="nombre-empresa">PixelCode</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Sobre nosotros</a></li>
+                <li><a href="contacto.html" class="pagina-actual">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <p>Completa el formulario y cuéntanos cómo podemos ayudarte.</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="web">Desarrollo web</option>
+                        <option value="aplicacion">Aplicaciones</option>
+                        <option value="mantenimiento">Mantenimiento</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </p>
+
+                <p class="privacidad">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label for="privacidad">Acepto la política de privacidad</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar mensaje</button>
+                    <button type="reset" class="boton-secundario">Restablecer</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PixelCode. Desarrollo de software con buenas ideas.</p>
+    </footer>
+</body>
+</html>
